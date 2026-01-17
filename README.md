@@ -1,59 +1,92 @@
-# Siit
+# SIIT (Nombre Completo del Sistema)
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.0.2.
+![Estado del Proyecto](https://img.shields.io/badge/Estado-En_Desarrollo-yellow)
+![Licencia](https://img.shields.io/badge/Licencia-MIT-blue)
+![Versión](https://img.shields.io/badge/Versión-1.0.0-green)
 
-## Development server
+## 📖 Descripción
 
-To start a local development server, run:
+**SIIT** es una solución diseñada para [describe en una frase qué problema resuelve el programa]. Su objetivo principal es optimizar [menciona el proceso clave] mediante [menciona la tecnología o método principal].
 
-```bash
-ng serve
-```
+Este proyecto nace de la necesidad de [explica brevemente por qué creaste esto: automatizar una tarea, gestionar una base de datos, práctica escolar, etc.].
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+### 📸 Capturas de Pantalla (Opcional)
 
-## Code scaffolding
+![Captura del Dashboard](./img/screenshot_dashboard.png)
+*(Interfaz principal de usuario)*
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+---
 
-```bash
-ng generate component component-name
-```
+## 🚀 Características Clave
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+* **Funcionalidad A:** [Breve descripción, ej: Reportes automáticos en PDF].
+* **Funcionalidad B:** [Breve descripción, ej: Autenticación de usuarios segura].
+* **Funcionalidad C:** [Breve descripción, ej: Interfaz responsiva].
+* **Gestión de Datos:** [Ej: Conexión optimizada a base de datos SQL].
 
-```bash
-ng generate --help
-```
+---
 
-## Building
+## 🛠️ Tecnologías Utilizadas
 
-To build the project run:
+El proyecto **SIIT** está construido con las siguientes tecnologías:
 
-```bash
-ng build
-```
+* **Backend:** [Ej: Python (Django/Flask), Node.js, Java Spring Boot]
+* **Frontend:** [Ej: React, HTML5/CSS3, Vue.js]
+* **Base de Datos:** [Ej: MySQL, PostgreSQL, MongoDB]
+* **Herramientas:** [Ej: Docker, Git, Postman]
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+---
 
-## Running unit tests
+## ⚙️ Instalación y Configuración
 
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
+Sigue estos pasos para ejecutar el proyecto en tu entorno local.
 
-```bash
-ng test
-```
+### Prerrequisitos
 
-## Running end-to-end tests
+* Tener instalado [Lenguaje/Herramienta, ej: Node.js v14+]
+* Tener instalado [Gestor de BD, ej: MySQL]
 
-For end-to-end (e2e) testing, run:
+### Pasos
 
-```bash
-ng e2e
-```
+1.  **Clonar el repositorio:**
+    ```bash
+    git clone [https://github.com/tu-usuario/siit.git](https://github.com/tu-usuario/siit.git)
+    cd siit
+    ```
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+2.  **Instalar dependencias:**
+    ```bash
+    # Ejemplo para Node
+    npm install
+    
+    # Ejemplo para Python
+    pip install -r requirements.txt
+    ```
 
-## Additional Resources
+3.  **Configuración de Variables de Entorno:**
+    Renombra el archivo `.env.example` a `.env` y configura tus credenciales:
+    ```env
+    DB_HOST=localhost
+    DB_USER=root
+    DB_PASS=tu_contraseña
+    ```
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+4.  **Ejecutar el proyecto:**
+    ```bash
+    npm start
+    # o
+    python main.py
+    ```
+
+---
+
+## 📂 Estructura del Proyecto
+
+```text
+siit/
+├── src/            # Código fuente principal
+├── assets/         # Imágenes y recursos estáticos
+├── database/       # Scripts SQL o migraciones
+├── docs/           # Documentación adicional
+├── .gitignore      # Archivos ignorados por Git
+└── README.md       # Este archivo
