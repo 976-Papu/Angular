@@ -1,0 +1,48 @@
+.portal-nav {
+    padding: 3rem 1rem;
+    background: linear-gradient(to bottom, #621f31, #996c4d);
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Principal {
+    padding: 3rem;
+    background-color: #a48a90;
+    width: 90%;
+    min-height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    border-radius: 20px;
+    align-content: center;
+    justify-items: center;
+}
+
+.Btn_CON {
+    width: 100%;
+    max-width: 250px;
+    background-color: #dcdcdc;
+    border-radius: 50px;
+    padding: 1rem 1.5rem;
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    color: #1a2a44;
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.Btn_CON:hover {
+    background-color: #BC955C;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}

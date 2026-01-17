@@ -1,0 +1,16 @@
+import { Component, OnInit } from '@angular/core';
+
+@Component({
+  selector: 'app-encabezado',
+  imports: [],
+  templateUrl: './encabezado.html',
+  styleUrl: './encabezado.css',
+
+})
+export class Encabezado implements OnInit {
+  constructor() { }
+  ngOnInit(): void {
+
+  }
+
+}

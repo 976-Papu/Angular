@@ -1,0 +1,64 @@
+.portal-nav {
+    padding: 3rem 1rem;
+    background: linear-gradient(to bottom, #621f31, #996c4d);
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Principal {
+    padding: 3rem 1rem;
+    background-color: #9c7a83;
+    width: 80%;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #203c6a;
+    align-self: baseline;
+}
+
+.Notice {
+    width: 50%;
+    background-color: #b9a6a9;
+    border-radius: 20px;
+    padding: 1rem;
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.Pay {
+    width: 18%;
+    background-color: #b9a6a9;
+    border-radius: 20px;
+    padding: 2rem;
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Pay label {
+    font-size: .9rem;
+    font-weight: 700;
+    color: #203c6a;
+    align-self: flex-start;
+}
+
+.TextoBase {
+    font-size: .9rem;
+    font-weight: 700;
+    color: #000000;
+    align-self: flex-start;
+}
