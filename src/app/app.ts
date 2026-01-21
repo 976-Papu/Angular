@@ -8,6 +8,7 @@ import { Consulta } from './Mantenimientos/consulta/consulta';
 import { Docof } from './Mantenimientos/docof/docof';
 import { Mantenimiento } from './Mantenimientos/mantenimiento/mantenimiento';
 import { DocCert } from './Docentes/doc-cert/doc-cert';
+
 @Component({
   selector: 'app-root',
   imports: [RouterOutlet, Encabezado, MenuPrin, LogIn, Inicio, Consulta, Docof, Mantenimiento, DocCert],
