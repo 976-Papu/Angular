@@ -1,0 +1,25 @@
+<app-fondo>
+    <div class="Container">
+        <div class="Principal">
+            <label class="search-label">Buscar:</label>
+            <input type="text" class="search-input">
+            <div class="SubPrincipal">
+                <h2 class="section-title">Alumnos y Asesores:</h2>
+                <div class="table-wrapper">
+                    <ag-grid-angular style="width: 100%; height: 400px;" class="ag-theme-quartz" [rowData]="rowData"
+                        [columnDefs]="colDefs" [defaultColDef]="defaultColDef">
+                    </ag-grid-angular>
+                </div>
+                <div class="actions-section">
+                    <button class="action-btn">Cambiar Asesor</button>
+                    <button class="action-btn">Cambiar Alumno</button>
+                    <button class="action-btn">Agregar un Nuevo<br>Alumno</button>
+                    <button class="action-btn">Agregar un Nuevo<br>Asesor</button>
+                </div>
+            </div>
+        </div>
+        <div class="SubPrincipal2">
+            <button class="action-btn">Volver al Siit</button>
+        </div>
+    </div>
+</app-fondo>
