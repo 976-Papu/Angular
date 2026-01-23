@@ -1,27 +1,17 @@
 import { Routes } from '@angular/router';
-import { Encabezado } from './encabezado/encabezado';
-import { MenuPrin } from './menu-prin/menu-prin';
-import { LogIn } from './log-in/log-in';
-import { Inicio } from './Mantenimientos/inicio/inicio';
-import { Consulta } from './Mantenimientos/consulta/consulta';
-import { Docof } from './Mantenimientos/docof/docof';
-import { InicioAlumnos } from './Alumnos/inicio-alumnos/inicio-alumnos';
-import { Mantenimiento } from './Mantenimientos/mantenimiento/mantenimiento';
-import { DocCert } from './Docentes/doc-cert/doc-cert';
-import { Fondo } from './fondo/fondo'; //eliminar esta linea
-import { AlumnosVista } from './residencia/Vistas/alumnos-vista/alumnos-vista';
+import { Encabezado } from './Recursos/encabezado/encabezado';//Borrar
+import { Fondo } from './Recursos/fondo/fondo';//Borrar
+import { AlumnosVista } from './residencias/alumnos-vista/alumnos-vista';//Borrar
+import { AuxiliarVista } from './residencias/auxiliar-vista/auxiliar-vista';//Borrar
+import { AdministradorVista } from './residencias/administrador-vista/administrador-vista';//Borrar
+import { SupAdministradorVista } from './residencias/sup-administrador-vista/sup-administrador-vista';
 
 export const routes: Routes = [
-    { path: 'Encabezado', component: Encabezado },
-    { path: 'MenuPrin', component: MenuPrin },
-    { path: 'login', component: LogIn },
-    { path: 'inicio', component: Inicio },
-    { path: 'consulta', component: Consulta },
-    { path: 'docof', component: Docof },
-    { path: 'mantenimiento', component: Mantenimiento },
-    { path: 'inicio-alumnos', component: InicioAlumnos },
-    { path: 'doc-cert', component: DocCert },
-    { path: 'fondo', component: Fondo },// eliinar esta
-    { path: 'alumnos-vista', component: AlumnosVista }
 
+    { path: 'encabezado', component: Encabezado },
+    { path: 'fondo', component: Fondo },
+    { path: 'alumnos-vista', component: AlumnosVista },
+    { path: 'auxiliar-vista', component: AuxiliarVista },
+    { path: 'administrador-vista', component: AdministradorVista },
+    { path: 'sup-administrador-vista', component: SupAdministradorVista }
 ];
